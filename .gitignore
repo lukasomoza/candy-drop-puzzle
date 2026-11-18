@@ -1,0 +1,23 @@
+# Build output
+build/
+cmake-build-*/
+visual_studio/windows/Program/*.exe
+visual_studio/windows/Program/*.pdb
+visual_studio/windows/Program/*.ilk
+visual_studio/windows/CandyDrop/
+*.obj
+*.tlog
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.user
+
+# Runtime files
+data/save.txt
+
+# OS
+Thumbs.db
+.DS_Store
+data/test_save.txt
