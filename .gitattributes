@@ -1,0 +1,9 @@
+* text=auto
+
+# Course-provided SDL2 wrapper and bundled libraries: exclude from language stats
+src/private/** linguist-vendored
+visual_studio/** linguist-vendored
+
+*.png binary
+*.dll binary
+*.ttf binary
